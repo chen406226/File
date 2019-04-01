@@ -1,5 +1,6 @@
 # Ckstore
 
+## **https://github.com/chen406226/File/blob/master/ckstore/README.md**
 
 ## 概括
 一个轻量化的基于react的状态管理工具，可以用于替代redux，优点轻量，没有第三者（订阅模式）。效率高
