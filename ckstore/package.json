@@ -1,0 +1,28 @@
+{
+  "name": "ckstore",
+  "version": "1.0.7",
+  "description": "create store with react",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+    "build:min": "cross-env NODE_ENV=production rollup -c -o dist/react-ckstore.min.js"
+  },
+  "keywords": [
+    "react",
+    "store",
+    "redux"
+  ],
+  "author": "chenkun",
+  "license": "",
+  "dependencies": {},
+  "browserify": {
+    "transform": [
+      "loose-envify"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "cross-spawn": "^6.0.5"
+  }
+}
