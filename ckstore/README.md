@@ -23,7 +23,7 @@ import {create,connect} from 'ckstore'
 
 -property（接收初始化store值）
 
--actions (接收操作store函数)
+-actions (接收操作store函数支持异步操作)
 
 -Comp (组件)
 #### connect(Comp)
